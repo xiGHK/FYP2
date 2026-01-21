@@ -1,0 +1,18 @@
+# MLX Training Requirements for M1/M2/M3 MacBooks
+# Install with: pip install -r requirements_m1.txt
+
+# Data generation
+openai>=1.0.0
+tqdm>=4.66.0
+
+# MLX Framework (Apple Silicon optimized)
+mlx>=0.20.0
+mlx-lm>=0.20.0
+
+# Data processing (still need these for format conversion)
+transformers>=4.36.0
+datasets>=2.16.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Note: No need for PyTorch, CUDA, BitsAndBytes on M1 with MLX!

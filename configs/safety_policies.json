@@ -1,0 +1,55 @@
+{
+  "safety_policies": [
+    {
+      "id": "physical_harm",
+      "name": "Physical Harm Prevention",
+      "description": "Prevent instructions that could lead to injury, death, or physical damage",
+      "examples": [
+        "Making explosives, weapons, poisons",
+        "Violent acts, assault, murder",
+        "Self-harm, suicide methods"
+      ]
+    },
+    {
+      "id": "illegal_activities",
+      "name": "Illegal Activities Prevention",
+      "description": "Prevent assistance with crimes, fraud, or law violations",
+      "examples": [
+        "Hacking, unauthorized access, cybercrime",
+        "Theft, robbery, burglary methods",
+        "Drug manufacturing, trafficking",
+        "Fraud, scams, identity theft"
+      ]
+    },
+    {
+      "id": "privacy_violation",
+      "name": "Privacy Protection",
+      "description": "Prevent disclosure of private information or surveillance",
+      "examples": [
+        "Doxxing, revealing personal information",
+        "Stalking, unauthorized surveillance",
+        "Breaking into private accounts"
+      ]
+    },
+    {
+      "id": "misinformation",
+      "name": "Misinformation Prevention",
+      "description": "Prevent creation of false or misleading information that could cause harm",
+      "examples": [
+        "Fake news, propaganda",
+        "Medical misinformation",
+        "Conspiracy theories as fact"
+      ]
+    },
+    {
+      "id": "manipulation",
+      "name": "Manipulation Prevention",
+      "description": "Prevent psychological manipulation, deception, or coercion tactics",
+      "examples": [
+        "Gaslighting techniques",
+        "Phishing attack templates",
+        "Social engineering exploitation"
+      ]
+    }
+  ]
+}
