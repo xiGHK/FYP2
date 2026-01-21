@@ -1,0 +1,64 @@
+# Model Files (Large)
+outputs/models_mlx/
+outputs/models/
+outputs/logs/
+models/
+*.safetensors
+*.bin
+*.pth
+*.ckpt
+*.pt
+
+# MLX Cache
+.mlx/
+mlx_cache/
+
+# Hugging Face Cache
+.cache/
+huggingface/
+
+# Processed Data (can be regenerated)
+data/processed/
+data/mlx/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+ENV/
+fyp-env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Results (optional - comment out if you want to keep)
+# results/*.json
+
+# Logs
+*.log
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+.cache
+
+# Large datasets (optional)
+# data/raw/*.jsonl
